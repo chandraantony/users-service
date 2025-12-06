@@ -39,6 +39,7 @@ class UserSchema implements CreateUserDto {
     example: {
       street: 'Jl. Merdeka',
       city: 'Jakarta',
+      postal_code: '123123',
     },
   })
   address?: any;

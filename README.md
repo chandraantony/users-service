@@ -4,13 +4,15 @@
 
 ### Debugging
 
-1. First, run the SQL files in `src/database/procedures/*.sql`.
-2. Then run debugging with `npm run start`.
+1. Run : `npm install` then copy .env.example then create .env
+2. First, run the SQL files in `src/database/procedures/*.sql`.
+3. Then run debugging with `npm run start`.
 
 ### Production
 
-1. Run `npm run build` — the SQL files will be automatically generated and executed at start time.
-2. Then run `npm run start:prod`.
+1. Run : `npm install` then copy .env.example then create .env
+2. Run `npm run build` — the SQL files will be automatically generated and executed at start time.
+3. Then run `npm run start:prod`.
 ---
 
 # Entity Relationships Overview
